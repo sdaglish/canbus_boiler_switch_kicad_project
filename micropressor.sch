@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
+Title "PIC Subsheet for Canbus Boiler Switch"
+Date "23Feb2020"
+Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "SPI pins are incorrect (see note in sheet)- 23Feb2020 "
+Comment2 "C5 needs to be removed and replaced with 0R connection - 23Feb2020"
 Comment3 ""
 Comment4 ""
 $EndDescr

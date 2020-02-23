@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PIC24FJ256GA702-I_SP)(type Legacy)(uri D:/Downloads/Electronics/KiCad/Libraries/LIB_PIC24FJ256GA702-I_SP/PIC24FJ256GA702-I_SP/KiCad/PIC24FJ256GA702-I_SP.mod)(options "")(descr ""))
+  (lib (name PIC24FJ256GA702-I_SO)(type Legacy)(uri D:/Downloads/Electronics/KiCad/Libraries/LIB_PIC24FJ256GA702-I_SO/PIC24FJ256GA702-I_SO/KiCad/PIC24FJ256GA702-I_SO.mod)(options "")(descr ""))
+)

@@ -1,0 +1,254 @@
+EESchema Schematic File Version 4
+LIBS:canbus_boiler_switch-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "rj12 connectors"
+Date "27 Oct 19"
+Rev "v0.1"
+Comp ""
+Comment1 "Pins and components checked - 27Oct19"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:6P6C J2
+U 1 1 5DACC112
+P 3850 2900
+F 0 "J2" H 3907 3467 50  0000 C CNN
+F 1 "6P6C" H 3907 3376 50  0000 C CNN
+F 2 "Connector_RJ:RJ12_Amphenol_54601" V 3850 2925 50  0001 C CNN
+F 3 "~" V 3850 2925 50  0001 C CNN
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:6P6C J3
+U 1 1 5DACC6B3
+P 3850 3950
+F 0 "J3" H 3907 4517 50  0000 C CNN
+F 1 "6P6C" H 3907 4426 50  0000 C CNN
+F 2 "Connector_RJ:RJ12_Amphenol_54601" V 3850 3975 50  0001 C CNN
+F 3 "~" V 3850 3975 50  0001 C CNN
+	1    3850 3950
+	1    0    0    -1  
+$EndComp
+Text Label 4250 2900 0    50   ~ 0
+CAN_H
+Text Label 4250 2800 0    50   ~ 0
+CAN_L
+Text Label 4250 3950 0    50   ~ 0
+CAN_H
+Text Label 4250 3850 0    50   ~ 0
+CAN_L
+$Comp
+L power:VDD #PWR028
+U 1 1 5DACD351
+P 4900 2500
+F 0 "#PWR028" H 4900 2350 50  0001 C CNN
+F 1 "VDD" H 4917 2673 50  0000 C CNN
+F 2 "" H 4900 2500 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR029
+U 1 1 5DACD6BD
+P 4900 3050
+F 0 "#PWR029" H 4900 2900 50  0001 C CNN
+F 1 "VDD" H 4917 3223 50  0000 C CNN
+F 2 "" H 4900 3050 50  0001 C CNN
+F 3 "" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR030
+U 1 1 5DACD944
+P 4900 3500
+F 0 "#PWR030" H 4900 3350 50  0001 C CNN
+F 1 "VDD" H 4917 3673 50  0000 C CNN
+F 2 "" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR031
+U 1 1 5DACDBF8
+P 4900 4100
+F 0 "#PWR031" H 4900 3950 50  0001 C CNN
+F 1 "VDD" H 4917 4273 50  0000 C CNN
+F 2 "" H 4900 4100 50  0001 C CNN
+F 3 "" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2600 4900 2600
+Wire Wire Line
+	4900 2600 4900 2500
+Wire Wire Line
+	4250 3100 4900 3100
+Wire Wire Line
+	4900 3100 4900 3050
+Wire Wire Line
+	4900 3500 4900 3650
+Wire Wire Line
+	4900 3650 4250 3650
+Wire Wire Line
+	4250 4150 4900 4150
+Wire Wire Line
+	4900 4150 4900 4100
+$Comp
+L power:GND #PWR024
+U 1 1 5DACE74D
+P 4650 2750
+F 0 "#PWR024" H 4650 2500 50  0001 C CNN
+F 1 "GND" H 4655 2577 50  0000 C CNN
+F 2 "" H 4650 2750 50  0001 C CNN
+F 3 "" H 4650 2750 50  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5DACF411
+P 4650 3200
+F 0 "#PWR025" H 4650 2950 50  0001 C CNN
+F 1 "GND" H 4655 3027 50  0000 C CNN
+F 2 "" H 4650 3200 50  0001 C CNN
+F 3 "" H 4650 3200 50  0001 C CNN
+	1    4650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5DACF5E4
+P 4650 3750
+F 0 "#PWR026" H 4650 3500 50  0001 C CNN
+F 1 "GND" H 4655 3577 50  0000 C CNN
+F 2 "" H 4650 3750 50  0001 C CNN
+F 3 "" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5DACF889
+P 4650 4300
+F 0 "#PWR027" H 4650 4050 50  0001 C CNN
+F 1 "GND" H 4655 4127 50  0000 C CNN
+F 2 "" H 4650 4300 50  0001 C CNN
+F 3 "" H 4650 4300 50  0001 C CNN
+	1    4650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4050 4650 4050
+Wire Wire Line
+	4650 4050 4650 4300
+Wire Wire Line
+	4250 3750 4650 3750
+Wire Wire Line
+	4250 3000 4650 3000
+Wire Wire Line
+	4650 3000 4650 3200
+Wire Wire Line
+	4250 2700 4650 2700
+Wire Wire Line
+	4650 2700 4650 2750
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5DAD0753
+P 5200 2600
+F 0 "#FLG01" H 5200 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 5200 2773 50  0000 C CNN
+F 2 "" H 5200 2600 50  0001 C CNN
+F 3 "~" H 5200 2600 50  0001 C CNN
+	1    5200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DAD0C91
+P 5450 2700
+F 0 "#FLG02" H 5450 2775 50  0001 C CNN
+F 1 "PWR_FLAG" H 5450 2873 50  0000 C CNN
+F 2 "" H 5450 2700 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2600 4900 2600
+Connection ~ 4900 2600
+Wire Wire Line
+	4650 2700 5450 2700
+Connection ~ 4650 2700
+Text HLabel 1550 1300 0    50   Input ~ 0
+VDD
+Text HLabel 1550 1600 0    50   Input ~ 0
+GND
+$Comp
+L power:VDD #PWR?
+U 1 1 5DAD6786
+P 1750 1250
+AR Path="/5DAAF5BF/5DAD6786" Ref="#PWR?"  Part="1" 
+AR Path="/5DACC04D/5DAD6786" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 1750 1100 50  0001 C CNN
+F 1 "VDD" H 1767 1423 50  0000 C CNN
+F 2 "" H 1750 1250 50  0001 C CNN
+F 3 "" H 1750 1250 50  0001 C CNN
+	1    1750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD678C
+P 1750 1650
+AR Path="/5DAAF5BF/5DAD678C" Ref="#PWR?"  Part="1" 
+AR Path="/5DACC04D/5DAD678C" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 1750 1400 50  0001 C CNN
+F 1 "GND" H 1755 1477 50  0000 C CNN
+F 2 "" H 1750 1650 50  0001 C CNN
+F 3 "" H 1750 1650 50  0001 C CNN
+	1    1750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1600 1750 1600
+Wire Wire Line
+	1550 1300 1750 1300
+Wire Wire Line
+	1750 1300 1750 1250
+Wire Wire Line
+	1750 1600 1750 1650
+Text HLabel 1350 2150 0    50   Input ~ 0
+CAN_H
+Text HLabel 1350 2350 0    50   Input ~ 0
+CAN_L
+Text Label 1350 2150 0    50   ~ 0
+CON_H
+Text Label 1350 2350 0    50   ~ 0
+CAN_L
+$Comp
+L Device:C C9
+U 1 1 5DADED42
+P 1750 1450
+F 0 "C9" H 1865 1496 50  0000 L CNN
+F 1 "1uf" H 1865 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1788 1300 50  0001 C CNN
+F 3 "~" H 1750 1450 50  0001 C CNN
+	1    1750 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 1300
+Connection ~ 1750 1600
+Text Notes 2200 1350 0    50   ~ 0
+Decoupling cap to be placed on power trace going to board from rj12 connector\n
+$EndSCHEMATC

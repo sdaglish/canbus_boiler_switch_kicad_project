@@ -10,7 +10,7 @@ Date "23Feb2020"
 Rev "1.0"
 Comp ""
 Comment1 "Manufactured and in use."
-Comment2 ""
+Comment2 "The SPI pins are incorrect and will be fixed in a later release"
 Comment3 ""
 Comment4 ""
 $EndDescr

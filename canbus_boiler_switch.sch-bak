@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title ""
-Date ""
-Rev ""
+Title "Canbus Boiler Switch"
+Date "23Feb2020"
+Rev "1.0"
 Comp ""
-Comment1 ""
+Comment1 "Manufactured and in use."
 Comment2 ""
 Comment3 ""
 Comment4 ""

@@ -30,4 +30,5 @@ fp-info-cache
 
 # Mfr files
 plot/**
+*.*.swp
 

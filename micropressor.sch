@@ -443,4 +443,6 @@ Wire Wire Line
 	3350 3450 3550 3450
 Wire Wire Line
 	3550 3450 3550 4100
+Text Notes 4650 1050 0    50   ~ 10
+SPI pins to be fixed in next version
 $EndSCHEMATC

@@ -3,9 +3,10 @@
 
 # Temporary files
 *.000
-*.bak
 *.bck
+*.bak
 *.kicad_pcb-bak
+*.sch-bak
 *~
 _autosave-*
 *.tmp
@@ -27,3 +28,9 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Mfr files
+plot/**
+*.*.swp
+.gitignore.swp
+

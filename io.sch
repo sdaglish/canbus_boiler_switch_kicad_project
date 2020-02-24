@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 5
 Title "IO connectors"
 Date "27 October 2019"
-Rev "v0.1"
+Rev "v1.1"
 Comp ""
 Comment1 "Pins and connections checked - 27Oct19"
 Comment2 ""

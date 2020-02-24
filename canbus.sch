@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 5
 Title "Canbus controller and transceiver"
 Date "27 October 2019"
-Rev "v0.1"
+Rev "v1.1"
 Comp ""
 Comment1 "Set up for 18-pin SOIC mcp2515"
 Comment2 "Pins and connections checked -  27Oct19"

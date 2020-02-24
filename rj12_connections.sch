@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 4 5
 Title "rj12 connectors"
 Date "27 Oct 19"
-Rev "v0.1"
+Rev "v1.1"
 Comp ""
 Comment1 "Pins and components checked - 27Oct19"
 Comment2 ""

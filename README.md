@@ -12,6 +12,7 @@
         * Adding version history to readme
         * Removed mfr files from project
         * Removed backup files from project
+        * Added sheet information to schematic files
 
    
  

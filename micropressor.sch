@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title ""
-Date ""
-Rev ""
+Date "24Feb2020"
+Rev "v1.1"
 Comp ""
-Comment1 ""
+Comment1 "SPI pins incorrect in manufactured pcb"
 Comment2 ""
 Comment3 ""
 Comment4 ""
